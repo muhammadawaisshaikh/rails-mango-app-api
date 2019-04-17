@@ -1,0 +1,2 @@
+class Ratelist < ApplicationRecord
+end

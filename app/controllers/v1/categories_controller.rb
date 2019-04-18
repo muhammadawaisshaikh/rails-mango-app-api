@@ -37,7 +37,7 @@ class V1::CategoriesController < ApplicationController
 
   private
 
-  def product_params
+  def category_params
     params.require(:category).permit(:name, :description)
   end
 

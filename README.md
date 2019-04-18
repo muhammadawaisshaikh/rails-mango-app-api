@@ -23,3 +23,8 @@ Body:
         "description": "Mango Anwar"
     }
 }
+
+# Show detail Category
+
+GET:
+http://localhost:3000/v1/categories/2

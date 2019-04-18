@@ -18,13 +18,23 @@ http://localhost:3000/v1/categories
 
 Body:
 {
-    "category": {
-        "name": "Anwar Atol Mango",
-        "description": "Mango Anwar"
-    }
+  "category": {
+    "name": "Anwar Atol Mango",
+    "description": "Mango Anwar"
+  }
 }
 
 # Show detail Category
 
 GET:
 http://localhost:3000/v1/categories/2
+
+# UPDATE category
+
+PUT:
+http://localhost:3000/v1/categories/2
+
+Body:
+{
+  "description": "Anwar Mango"
+}

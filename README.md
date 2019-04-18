@@ -38,3 +38,8 @@ Body:
 {
   "description": "Anwar Mango"
 }
+
+# DELETE category
+
+DELETE:
+http://localhost:3000/v1/categories/2
